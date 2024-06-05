@@ -1,0 +1,59 @@
+/* UserPage CSS */
+
+.user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background: linear-gradient(to right, #5e4e92 30%, #807f9b 100%); */
+
+    padding: 20px;
+}
+
+.user-page h1 {
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: rgb(49, 6, 24);
+}
+
+.user-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+}
+
+.additional-info {
+    white-space: pre-wrap; /* Preserves whitespace and line breaks */
+    text-align: left; /* Aligns the text to the left for better readability */
+    margin-top: 10px; /* Adds some space above the text */
+}
+.user-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.user-info p strong {
+    color: #333;
+}
+
+.logout-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #f75555;
+}
