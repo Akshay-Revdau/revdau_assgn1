@@ -13,7 +13,6 @@ mongoose.connect(DB).then(() => {
     console.log("Connection Successful")
 }).catch((err) => console.log("errorrr"));
 
-// import User from './models/schema/'
 
 App.use(express.json());
 

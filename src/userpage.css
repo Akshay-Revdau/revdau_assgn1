@@ -28,9 +28,9 @@
 }
 
 .additional-info {
-    white-space: pre-wrap; /* Preserves whitespace and line breaks */
-    text-align: left; /* Aligns the text to the left for better readability */
-    margin-top: 10px; /* Adds some space above the text */
+    white-space: pre-wrap; /*whitespace and line breaks */
+    text-align: left; 
+    margin-top: 10px;
 }
 .user-info p {
     margin: 10px 0;

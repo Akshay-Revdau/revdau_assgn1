@@ -10,7 +10,7 @@ const UserPage = () => {
     useEffect(() => {
         const fetchUserData = async () => {
             try {
-                const email = localStorage.getItem('userEmail'); // Assuming email is stored in localStorage upon login
+                const email = localStorage.getItem('userEmail'); 
                 const res = await fetch(`/api/current-user?email=${email}`);
                 if (!res.ok) throw new Error('Failed to fetch user data');
                 const data = await res.json();
