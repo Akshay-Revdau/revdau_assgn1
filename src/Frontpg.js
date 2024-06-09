@@ -8,6 +8,7 @@ const Frontpg = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
+
     const loginUser = async (e) => {
         e.preventDefault();
         
@@ -17,7 +18,7 @@ const Frontpg = () => {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                email, password
+                email, password 
             })
         });
         const data = await res.json();

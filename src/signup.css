@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+.container h1{
+    color: #cf0b60;
+}
 html, body {
     display: grid;
     height: 100vh;

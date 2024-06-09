@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 2em;
     font-weight: 700;
@@ -31,7 +32,7 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.modal {
+.modal1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,7 +46,7 @@ h1 {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.modal-content {
+.modal-content1 {
     background-color: #fff;
     padding: 20px;
     border: 1px solid #888;
@@ -67,7 +68,7 @@ textarea {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #cf7aaf;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -94,4 +95,19 @@ button:hover {
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+.UpSection{
+    display: flex;
+    width: 100vw;
+}
+.Welcome{
+    width: 80vw;;
+}
+.AddUser{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: right;    
+    margin-right: 10vw;
 }
