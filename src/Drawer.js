@@ -18,6 +18,7 @@ import Typography from '@mui/material/Typography';
 import Avatar from '@mui/material/Avatar';
 import './drawer.css'
 import {useEffect, useState } from 'react';
+import { red, yellow } from '@mui/material/colors';
 
 
 const drawerWidth = 250;
@@ -96,7 +97,7 @@ export default function TemporaryDrawer() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
-        <Toolbar>
+        <Toolbar style={{backgroundColor: "#cf7aaf"}}>
           <IconButton
             edge="start"
             color="inherit"
@@ -106,7 +107,7 @@ export default function TemporaryDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            Admin Page
+            Admin Section
           </Typography>
         </Toolbar>
       </AppBar>

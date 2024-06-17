@@ -87,13 +87,13 @@ const AdminPage = () => {
 
     return (
         <>
-        <div>
+        <div className='FULL'>
             <div>
             <ToastContainer />
             <div className='UpSection'>
                 <div className='Welcome'>{userData && <h1>Welcome {userData.Fname}!</h1>} </div>
 
-                <div className='AddUser'><button style={{width : "150px"}} onClick={() => setShowAddUserModal(true)}>Add User</button>
+                <div className='AddUser'><button style={{width : "150px"  }} onClick={() => setShowAddUserModal(true)}>Add User</button>
                 <AddUser 
                     showModal={showAddUserModal} 
                     closeModal={() => setShowAddUserModal(false)} 

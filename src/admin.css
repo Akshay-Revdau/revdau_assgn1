@@ -1,3 +1,6 @@
+.FULL{
+    margin-bottom: 20px;
+}
 h1 {
     text-align: center;
     margin-top: 30px;
@@ -99,15 +102,15 @@ button:hover {
 
 .UpSection{
     display: flex;
-    width: 100vw;
+    width: 90vw;
 }
-.Welcome{
-    width: 80vw;;
-}
+
 .AddUser{
     display: block;
     margin-top: auto;
     margin-bottom: auto;
     float: right;    
-    margin-right: 10vw;
+}
+.AddUser button:hover{
+    background-color: #c02e79;
 }

@@ -149,7 +149,7 @@ const AddUser = ({ showModal, closeModal, addUser }) => {
 
             <div className="clearfix">
               <button type="button" onClick={() => closeModal()} className="cancelbtn">Cancel</button>
-              <button type="submit" className="signupbtn">Sign Up</button>
+              <button type="submit" className="signupbtn">Add User</button>
             </div>
           </div>
         </form>

@@ -39,7 +39,7 @@ const UserPage = () => {
                     <p className="additional-info">{userData.additionalInfo}</p>)}
                 </div>
             </div>
-            <button onClick={() => navigate('/logout')} className="logout-btn">Logout</button>
+            <button onClick={() => navigate('/')} className="logout-btn">Logout</button>
         </div>
     );
 };
